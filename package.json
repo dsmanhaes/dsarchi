@@ -1,0 +1,20 @@
+{
+  "name": "node-clean-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dsmanhaes/node-clean-sample.git",
+  "author": "Diogo Manhaes <dsmanhaes@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev:server": "ts-node-dev --inspect --ignore-watch node_modules src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  }
+}
